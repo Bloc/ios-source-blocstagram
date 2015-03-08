@@ -7,9 +7,12 @@
 //
 
 #import "ImagesTableViewController.h"
+#import "DataSource.h"
+#import "Media.h"
+#import "User.h"
+#import "Comment.h"
 
 @interface ImagesTableViewController ()
-@property (nonatomic, strong) NSMutableArray *images;
 @end
 
 @implementation ImagesTableViewController
@@ -19,7 +22,6 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
-        self.images = [NSMutableArray array];
     }
     return self;
 }
@@ -27,14 +29,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor colorWithRed:0.90 green:0.90 blue:0.92 alpha:1.0];
-
-    for (int i = 1; i <= 10; i++) {
-        NSString *imageName = [NSString stringWithFormat:@"%d.jpg", i];
-        UIImage *image = [UIImage imageNamed:imageName];
-        if (image) {
-            [self.images addObject:image];
-        }
-    }
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"imageCell"];
 
@@ -55,21 +49,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
     
-    NSMutableAttributedString *originalMutableAttributedString;
-    
-    NSRange originalRange = [originalMutableAttributedString.string rangeOfString:originalMutableAttributedString.string];
-    
-    [originalMutableAttributedString setAttributes:@{} range:originalRange];
-    
-    [originalMutableAttributedString enumerateAttributesInRange:originalRange
-                                                        options:kNilOptions
-                                                     usingBlock:^(NSDictionary *attrs, NSRange range, BOOL *stop) {
-                                                            [attrs enumerateKeysAndObjectsUsingBlock:^(NSString *attribute, id obj, BOOL *stop) {
-                                                                [originalMutableAttributedString removeAttribute:attribute range:range];
-                                                            }];
-                                                        }];
-    
-    return self.images.count;
+    return [DataSource sharedInstance].mediaItems.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -97,14 +77,16 @@
             [cell.contentView addSubview:imageView];
         }
     
-    UIImage *image = self.images[indexPath.row];
-    imageView.image = image;
+    Media *item = [DataSource sharedInstance].mediaItems[indexPath.row];
+    imageView.image = item.image;
     
     return cell;
 }
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UIImage *image = self.images[indexPath.row];
+    Media *item = [DataSource sharedInstance].mediaItems[indexPath.row];
+    UIImage *image = item.image;
+    
     return (CGRectGetWidth(self.view.frame) / image.size.width) * image.size.height;
 }
 
