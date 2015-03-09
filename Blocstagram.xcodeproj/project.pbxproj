@@ -28,6 +28,7 @@
 		93284AF81AAD0862002CACAD /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 93284AF71AAD0862002CACAD /* Media.m */; };
 		93284AFB1AAD092D002CACAD /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 93284AFA1AAD092D002CACAD /* Comment.m */; };
 		93284AFE1AAD09AC002CACAD /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 93284AFD1AAD09AC002CACAD /* DataSource.m */; };
+		93284B011AAD1874002CACAD /* MediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93284B001AAD1874002CACAD /* MediaTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		93284AFA1AAD092D002CACAD /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 		93284AFC1AAD09AC002CACAD /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		93284AFD1AAD09AC002CACAD /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		93284AFF1AAD1874002CACAD /* MediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTableViewCell.h; sourceTree = "<group>"; };
+		93284B001AAD1874002CACAD /* MediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,24 +117,26 @@
 		9317E6611AA7C61700E71FDD /* Blocstagram */ = {
 			isa = PBXGroup;
 			children = (
-				9317E6881AA7C7D400E71FDD /* Images */,
 				9317E6661AA7C61700E71FDD /* AppDelegate.h */,
 				9317E6671AA7C61700E71FDD /* AppDelegate.m */,
-				9317E6691AA7C61700E71FDD /* ViewController.h */,
-				9317E66A1AA7C61700E71FDD /* ViewController.m */,
-				9317E66F1AA7C61700E71FDD /* Images.xcassets */,
-				9317E6711AA7C61700E71FDD /* LaunchScreen.xib */,
-				9317E6621AA7C61700E71FDD /* Supporting Files */,
-				9317E69D1AA7CB5E00E71FDD /* ImagesTableViewController.h */,
-				9317E69E1AA7CB5E00E71FDD /* ImagesTableViewController.m */,
-				93284AF31AAD075E002CACAD /* User.h */,
-				93284AFC1AAD09AC002CACAD /* DataSource.h */,
-				93284AFD1AAD09AC002CACAD /* DataSource.m */,
 				93284AF91AAD092D002CACAD /* Comment.h */,
 				93284AFA1AAD092D002CACAD /* Comment.m */,
+				93284AFC1AAD09AC002CACAD /* DataSource.h */,
+				93284AFD1AAD09AC002CACAD /* DataSource.m */,
+				9317E6881AA7C7D400E71FDD /* Images */,
+				9317E66F1AA7C61700E71FDD /* Images.xcassets */,
+				9317E69D1AA7CB5E00E71FDD /* ImagesTableViewController.h */,
+				9317E69E1AA7CB5E00E71FDD /* ImagesTableViewController.m */,
+				9317E6711AA7C61700E71FDD /* LaunchScreen.xib */,
 				93284AF61AAD0862002CACAD /* Media.h */,
 				93284AF71AAD0862002CACAD /* Media.m */,
+				93284AFF1AAD1874002CACAD /* MediaTableViewCell.h */,
+				93284B001AAD1874002CACAD /* MediaTableViewCell.m */,
+				9317E6621AA7C61700E71FDD /* Supporting Files */,
+				93284AF31AAD075E002CACAD /* User.h */,
 				93284AF41AAD075E002CACAD /* User.m */,
+				9317E6691AA7C61700E71FDD /* ViewController.h */,
+				9317E66A1AA7C61700E71FDD /* ViewController.m */,
 			);
 			path = Blocstagram;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 			files = (
 				9317E66B1AA7C61700E71FDD /* ViewController.m in Sources */,
 				9317E6681AA7C61700E71FDD /* AppDelegate.m in Sources */,
+				93284B011AAD1874002CACAD /* MediaTableViewCell.m in Sources */,
 				93284AF81AAD0862002CACAD /* Media.m in Sources */,
 				9317E6651AA7C61700E71FDD /* main.m in Sources */,
 				9317E69F1AA7CB5E00E71FDD /* ImagesTableViewController.m in Sources */,
