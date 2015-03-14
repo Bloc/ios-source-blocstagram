@@ -29,6 +29,7 @@
 		93284AFB1AAD092D002CACAD /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 93284AFA1AAD092D002CACAD /* Comment.m */; };
 		93284AFE1AAD09AC002CACAD /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 93284AFD1AAD09AC002CACAD /* DataSource.m */; };
 		93284B011AAD1874002CACAD /* MediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93284B001AAD1874002CACAD /* MediaTableViewCell.m */; };
+		9376E1C01AB28137009FFE43 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376E1BF1AB28137009FFE43 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		93284AFD1AAD09AC002CACAD /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		93284AFF1AAD1874002CACAD /* MediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTableViewCell.h; sourceTree = "<group>"; };
 		93284B001AAD1874002CACAD /* MediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableViewCell.m; sourceTree = "<group>"; };
+		9376E1BE1AB28137009FFE43 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9376E1BF1AB28137009FFE43 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				93284AF41AAD075E002CACAD /* User.m */,
 				9317E6691AA7C61700E71FDD /* ViewController.h */,
 				9317E66A1AA7C61700E71FDD /* ViewController.m */,
+				9376E1BE1AB28137009FFE43 /* LoginViewController.h */,
+				9376E1BF1AB28137009FFE43 /* LoginViewController.m */,
 			);
 			path = Blocstagram;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				9317E6681AA7C61700E71FDD /* AppDelegate.m in Sources */,
 				93284B011AAD1874002CACAD /* MediaTableViewCell.m in Sources */,
 				93284AF81AAD0862002CACAD /* Media.m in Sources */,
+				9376E1C01AB28137009FFE43 /* LoginViewController.m in Sources */,
 				9317E6651AA7C61700E71FDD /* main.m in Sources */,
 				9317E69F1AA7CB5E00E71FDD /* ImagesTableViewController.m in Sources */,
 				93284AF51AAD075E002CACAD /* User.m in Sources */,
