@@ -1,5 +1,5 @@
 //
-//  BLCDataSource.h
+//  DataSource.h
 //  Blocstagram
 //
 //  Created by Aaron on 3/8/15.
