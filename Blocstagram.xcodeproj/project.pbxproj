@@ -31,6 +31,8 @@
 		93284AFE1AAD09AC002CACAD /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 93284AFD1AAD09AC002CACAD /* DataSource.m */; };
 		93284B011AAD1874002CACAD /* MediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93284B001AAD1874002CACAD /* MediaTableViewCell.m */; };
 		9376E1C01AB28137009FFE43 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9376E1BF1AB28137009FFE43 /* LoginViewController.m */; };
+		93CD44F61AB3E36200047C90 /* MediaFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD44F51AB3E36200047C90 /* MediaFullScreenViewController.m */; };
+		93CD44F91AB3E8F000047C90 /* MediaFullScreenAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD44F81AB3E8F000047C90 /* MediaFullScreenAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,10 @@
 		93284B001AAD1874002CACAD /* MediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableViewCell.m; sourceTree = "<group>"; };
 		9376E1BE1AB28137009FFE43 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		9376E1BF1AB28137009FFE43 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		93CD44F41AB3E36200047C90 /* MediaFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenViewController.h; sourceTree = "<group>"; };
+		93CD44F51AB3E36200047C90 /* MediaFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaFullScreenViewController.m; sourceTree = "<group>"; };
+		93CD44F71AB3E8F000047C90 /* MediaFullScreenAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenAnimator.h; sourceTree = "<group>"; };
+		93CD44F81AB3E8F000047C90 /* MediaFullScreenAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaFullScreenAnimator.m; sourceTree = "<group>"; };
 		B63978DF74D918A9436AC7D8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0B696EA70DED8B60AFDA4F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +157,10 @@
 				9376E1BF1AB28137009FFE43 /* LoginViewController.m */,
 				93284AF61AAD0862002CACAD /* Media.h */,
 				93284AF71AAD0862002CACAD /* Media.m */,
+				93CD44F71AB3E8F000047C90 /* MediaFullScreenAnimator.h */,
+				93CD44F81AB3E8F000047C90 /* MediaFullScreenAnimator.m */,
+				93CD44F41AB3E36200047C90 /* MediaFullScreenViewController.h */,
+				93CD44F51AB3E36200047C90 /* MediaFullScreenViewController.m */,
 				93284AFF1AAD1874002CACAD /* MediaTableViewCell.h */,
 				93284B001AAD1874002CACAD /* MediaTableViewCell.m */,
 				9317E6621AA7C61700E71FDD /* Supporting Files */,
@@ -364,8 +374,10 @@
 				9376E1C01AB28137009FFE43 /* LoginViewController.m in Sources */,
 				9317E6651AA7C61700E71FDD /* main.m in Sources */,
 				9317E69F1AA7CB5E00E71FDD /* ImagesTableViewController.m in Sources */,
+				93CD44F61AB3E36200047C90 /* MediaFullScreenViewController.m in Sources */,
 				93284AF51AAD075E002CACAD /* User.m in Sources */,
 				93284AFE1AAD09AC002CACAD /* DataSource.m in Sources */,
+				93CD44F91AB3E8F000047C90 /* MediaFullScreenAnimator.m in Sources */,
 				93284AFB1AAD092D002CACAD /* Comment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
