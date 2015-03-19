@@ -38,6 +38,7 @@
 		937FB2C01ABA831A007BD356 /* CropBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB2BF1ABA831A007BD356 /* CropBox.m */; };
 		937FB2C31ABA85F0007BD356 /* CropImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB2C21ABA85F0007BD356 /* CropImageViewController.m */; };
 		937FB2C61ABA8C32007BD356 /* ImageLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB2C51ABA8C32007BD356 /* ImageLibraryViewController.m */; };
+		937FB2C91ABB2FED007BD356 /* PostToInstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB2C81ABB2FED007BD356 /* PostToInstagramViewController.m */; };
 		93CD44F61AB3E36200047C90 /* MediaFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD44F51AB3E36200047C90 /* MediaFullScreenViewController.m */; };
 		93CD44F91AB3E8F000047C90 /* MediaFullScreenAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD44F81AB3E8F000047C90 /* MediaFullScreenAnimator.m */; };
 		93DEA49D1AB8C48800D15167 /* CircleSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DEA49C1AB8C48800D15167 /* CircleSpinnerView.m */; };
@@ -106,6 +107,8 @@
 		937FB2C21ABA85F0007BD356 /* CropImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropImageViewController.m; sourceTree = "<group>"; };
 		937FB2C41ABA8C32007BD356 /* ImageLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLibraryViewController.h; sourceTree = "<group>"; };
 		937FB2C51ABA8C32007BD356 /* ImageLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLibraryViewController.m; sourceTree = "<group>"; };
+		937FB2C71ABB2FED007BD356 /* PostToInstagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostToInstagramViewController.h; sourceTree = "<group>"; };
+		937FB2C81ABB2FED007BD356 /* PostToInstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostToInstagramViewController.m; sourceTree = "<group>"; };
 		93CD44F41AB3E36200047C90 /* MediaFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenViewController.h; sourceTree = "<group>"; };
 		93CD44F51AB3E36200047C90 /* MediaFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaFullScreenViewController.m; sourceTree = "<group>"; };
 		93CD44F71AB3E8F000047C90 /* MediaFullScreenAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenAnimator.h; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 				93CD44F51AB3E36200047C90 /* MediaFullScreenViewController.m */,
 				93284AFF1AAD1874002CACAD /* MediaTableViewCell.h */,
 				93284B001AAD1874002CACAD /* MediaTableViewCell.m */,
+				937FB2C71ABB2FED007BD356 /* PostToInstagramViewController.h */,
+				937FB2C81ABB2FED007BD356 /* PostToInstagramViewController.m */,
 				9317E6621AA7C61700E71FDD /* Supporting Files */,
 				9378F8C91ABA396400750241 /* UIImage+ImageUtilities.h */,
 				9378F8CA1ABA396400750241 /* UIImage+ImageUtilities.m */,
@@ -430,6 +435,7 @@
 				937FB2C31ABA85F0007BD356 /* CropImageViewController.m in Sources */,
 				93284AFE1AAD09AC002CACAD /* DataSource.m in Sources */,
 				93CD44F91AB3E8F000047C90 /* MediaFullScreenAnimator.m in Sources */,
+				937FB2C91ABB2FED007BD356 /* PostToInstagramViewController.m in Sources */,
 				93DEA49D1AB8C48800D15167 /* CircleSpinnerView.m in Sources */,
 				93284AFB1AAD092D002CACAD /* Comment.m in Sources */,
 				937FB2C01ABA831A007BD356 /* CropBox.m in Sources */,
