@@ -94,6 +94,10 @@
     
     self.previewImageView.frame = CGRectMake(0, self.topLayoutGuide.length, edgeSize, edgeSize);
     
+    if (CGRectGetHeight(self.view.bounds) < edgeSize * 1.5) {
+        edgeSize /= 1.5;
+    }
+
     CGFloat buttonHeight = 50;
     CGFloat buffer = 10;
     
