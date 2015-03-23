@@ -39,6 +39,7 @@
 		937FB2C31ABA85F0007BD356 /* CropImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB2C21ABA85F0007BD356 /* CropImageViewController.m */; };
 		937FB2C61ABA8C32007BD356 /* ImageLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB2C51ABA8C32007BD356 /* ImageLibraryViewController.m */; };
 		937FB2C91ABB2FED007BD356 /* PostToInstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB2C81ABB2FED007BD356 /* PostToInstagramViewController.m */; };
+		937FB2CB1ABB8657007BD356 /* UserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB2CA1ABB8657007BD356 /* UserTests.m */; };
 		93CD44F61AB3E36200047C90 /* MediaFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD44F51AB3E36200047C90 /* MediaFullScreenViewController.m */; };
 		93CD44F91AB3E8F000047C90 /* MediaFullScreenAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD44F81AB3E8F000047C90 /* MediaFullScreenAnimator.m */; };
 		93DEA49D1AB8C48800D15167 /* CircleSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DEA49C1AB8C48800D15167 /* CircleSpinnerView.m */; };
@@ -109,6 +110,7 @@
 		937FB2C51ABA8C32007BD356 /* ImageLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLibraryViewController.m; sourceTree = "<group>"; };
 		937FB2C71ABB2FED007BD356 /* PostToInstagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostToInstagramViewController.h; sourceTree = "<group>"; };
 		937FB2C81ABB2FED007BD356 /* PostToInstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostToInstagramViewController.m; sourceTree = "<group>"; };
+		937FB2CA1ABB8657007BD356 /* UserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTests.m; sourceTree = "<group>"; };
 		93CD44F41AB3E36200047C90 /* MediaFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenViewController.h; sourceTree = "<group>"; };
 		93CD44F51AB3E36200047C90 /* MediaFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaFullScreenViewController.m; sourceTree = "<group>"; };
 		93CD44F71AB3E8F000047C90 /* MediaFullScreenAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenAnimator.h; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 			children = (
 				9317E67E1AA7C61800E71FDD /* BlocstagramTests.m */,
 				9317E67C1AA7C61800E71FDD /* Supporting Files */,
+				937FB2CA1ABB8657007BD356 /* UserTests.m */,
 			);
 			path = BlocstagramTests;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937FB2CB1ABB8657007BD356 /* UserTests.m in Sources */,
 				9317E67F1AA7C61800E71FDD /* BlocstagramTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
